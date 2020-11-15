@@ -1,7 +1,7 @@
 name: echo-job
 on: 
   schedule:
-  - cron: */5 * * * *
+  - cron: '*/5 * * * *'
 jobs:
   doing-an-echo: 
     runs-on: ubuntu-latest
