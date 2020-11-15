@@ -1,8 +1,8 @@
 name: echo-job
 on: 
-  - schedule:
+  schedule:
     - cron: '*/5 * * * *'
-  - push
+  push:
 jobs:
   doing-an-echo: 
     runs-on: ubuntu-latest
